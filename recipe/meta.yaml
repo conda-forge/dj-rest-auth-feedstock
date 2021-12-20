@@ -1,5 +1,5 @@
 {% set name = "dj-rest-auth" %}
-{% set version = "2.1.11" %}
+{% set version = "2.1.12" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dj-rest-auth-{{ version }}.tar.gz
-  sha256: 97290a3c98e5aa369cdb0d660a23f0f665d622ccc5ba25d1ab35888714be07c9
+  sha256: bed5052a17f258732ef846c8bfab9703e6ea45f4ea4b9a8fcd125d7f10f14980
 
 build:
   number: 0
