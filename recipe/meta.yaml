@@ -1,5 +1,5 @@
 {% set name = "dj-rest-auth" %}
-{% set version = "2.2.1" %}
+{% set version = "2.2.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dj-rest-auth-{{ version }}.tar.gz
-  sha256: ab2fda1798c09987935efc981114961fe7158c97baa02a28be1d0636e61688d6
+  sha256: fda25a777ac23bc2561f2579de5c45f058d0f1d27410469d5b321c353c4822ad
 
 build:
   number: 0
@@ -24,7 +24,7 @@ requirements:
     - djangorestframework >=3.7.0
     - python >=3.5
   run_constrained:
-    - django-allauth >=0.40.0,<0.45.0
+    - django-allauth >=0.40.0,<0.48.0
 
 test:
   imports:
