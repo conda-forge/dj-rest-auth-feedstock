@@ -1,11 +1,11 @@
-About dj-rest-auth
-==================
+About dj-rest-auth-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dj-rest-auth-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/iMerica/dj-rest-auth
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dj-rest-auth-feedstock/blob/main/LICENSE.txt)
 
 Summary: Authentication and Registration in Django Rest Framework
 
