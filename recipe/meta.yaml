@@ -18,11 +18,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.5
+    - python >=3.6
   run:
     - django >=2.0
     - djangorestframework >=3.7.0
-    - python >=3.5
+    - python >=3.6
   run_constrained:
     - django-allauth >=0.40.0,<0.51.0
 
