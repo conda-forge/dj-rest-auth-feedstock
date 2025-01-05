@@ -1,5 +1,5 @@
 {% set name = "dj-rest-auth" %}
-{% set version = "7.0.0" %}
+{% set version = "7.0.1" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/dj-rest-auth-{{ version }}.tar.gz
-  sha256: 08dbc03a35223872da9f59bc2d7a71bec2e721aa69f7cdc84c7a329aeae1f86e
+  sha256: 3f8c744cbcf05355ff4bcbef0c8a63645da38e29a0fdef3c3332d4aced52fb90
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -21,7 +21,7 @@ requirements:
     - python {{ python_min }}
     - setuptools
   run:
-    - django >=3.2,<6.0
+    - django >=4.2,<6.0
     - djangorestframework >=3.13.0
     - python >={{ python_min }}
 
